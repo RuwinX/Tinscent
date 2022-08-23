@@ -13,8 +13,7 @@ body {
 
 .phonePic {
   transform: rotate(25deg);
-  width: 60%;
-
+width:60%
 
 }
 
@@ -68,6 +67,10 @@ margin-bottom: 1rem;
 
 #features{
   margin: 10px;
+  padding-top: 4%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .row{
@@ -81,6 +84,10 @@ margin-bottom: 1rem;
   color: white;
 }
 
+#title{
+
+
+}
 .testimonial-pic {
   width: 10%;
   border-radius: 100%;
@@ -101,4 +108,17 @@ margin-bottom: 1rem;
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+.pricing-card-title
+{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#pricing {
+  margin-bottom:5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
 }
